@@ -1,0 +1,14 @@
+Package: CMSclassifier
+Type: Package
+Title: prediction of the Consensus Molecular Subtype (CMS) of
+        colorectal carcinomas based on log2_scaled Gene Expression
+        Profiles (GEP)
+Version: 1.0.0
+Author: Aurelien de Reynies, Justin Guinney
+Maintainer: Send questions to <reyniesa@ligue-cancer.net> and <justin.guinney@sagebase.org>
+Description: Labels colorectal samples with a "Consensus Molecular Subtype" (CMS) based on their GEP 
+Depends: randomForest
+License: GPL
+LazyData: true
+NeedsCompilation: no
+Packaged: 2015-10-02 21:04:19 UTC; jguinney
