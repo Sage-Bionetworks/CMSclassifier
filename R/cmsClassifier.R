@@ -193,6 +193,7 @@ naImpute <- function(Exp,G=NULL){
             tmp <- as.data.frame(array(mm,dim=c(length(G),ncol(Exp))))
             rownames(tmp) <- G
             names(tmp) <- names(Exp)
+            colnames(tmp)<-colnames(Exp)##added by SJCG: rbind fails if Data Frame has sample names
             Exp <- rbind(Exp,tmp)
         }       
         Exp
